@@ -28,7 +28,7 @@ function App() {
         >
           <IoMdClose className="" />
         </button>
-
+        
         <Navbar></Navbar>
 
       </div>

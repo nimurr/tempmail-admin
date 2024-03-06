@@ -27,7 +27,7 @@ export default function SettingHome() {
       </div>
       <div>
         <input
-          className="w-full block mt-5 bg-blue-600 rounded text-white font-bold py-3"
+          className="w-full block mt-5 cursor-pointer bg-blue-600 rounded text-white font-bold py-3"
           type="submit"
           value="Update"
         />

@@ -9,7 +9,7 @@ export default function UserMenu() {
     <div className="flex justify-between py-5 pl-3 lg:pl-0 pr-2">
       {/*=================== left side fake email ===========*/}
       <p className="dark:text-white flex items-center gap-2">
-        <h2 className="font-bold sm:text-4xl text-xl">Dashboard</h2>
+        <h2 className="font-bold sm:text-xl text-xl">Dashboard</h2>
       </p>
 
       {/*======================== right side user information ==========================*/}
@@ -18,13 +18,6 @@ export default function UserMenu() {
           <DarkThemeToggle></DarkThemeToggle>
         </Flowbite>
 
-        <Link target="_blank" to={"http://localhost:5173"}>
-          <img
-            src="https://res.cloudinary.com/dav9mftpk/image/upload/v1704345465/Screenshot_1-removebg-preview_ewiwxi.png"
-            className="img-fluid w-8 rounded-top "
-            alt=""
-          />
-        </Link>
 
         <Dropdown
           className=""
@@ -33,7 +26,7 @@ export default function UserMenu() {
           label={
             <Avatar
               alt="User settings"
-              img="https://res.cloudinary.com/dav9mftpk/image/upload/v1704296367/png-transparent-computer-icons-email-email-miscellaneous-trademark-logo-removebg-preview_pqahp2.png"
+              img="https://i.ibb.co/whSjqyv/fshub-account-v2-CB432205751.png"
               rounded
               className="z-10"
             />
